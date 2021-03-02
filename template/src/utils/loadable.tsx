@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense } from 'app/pages/HomePage/node_modules/react';
 
 interface Opts {
   fallback: React.ReactNode;

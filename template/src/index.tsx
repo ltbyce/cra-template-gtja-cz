@@ -8,15 +8,15 @@
 import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 
-import * as React from 'react';
+import * as React from 'app/pages/HomePage/node_modules/react';
 import * as ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
+import { Provider } from 'app/pages/Login/node_modules/react-redux';
 import * as serviceWorker from 'serviceWorker';
 
 // Import root app
 import { App } from 'app';
 
-import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from 'app/pages/HomePage/node_modules/react-helmet-async';
 
 import { configureAppStore } from 'store/configureStore';
 
@@ -24,7 +24,7 @@ import { configureAppStore } from 'store/configureStore';
 import './locales/i18n';
 
 import zhCN from 'antd/lib/locale/zh_CN';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'app/pages/Login/node_modules/antd';
 
 const store = configureAppStore();
 const MOUNT_NODE = document.getElementById('root') as HTMLElement;

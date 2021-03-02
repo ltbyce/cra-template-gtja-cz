@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'app/pages/HomePage/node_modules/react';
 import { createRenderer } from 'react-test-renderer/shallow';
 
 import { App } from '../index';

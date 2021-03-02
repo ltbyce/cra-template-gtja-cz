@@ -1,18 +1,18 @@
-import React from 'react';
+import React from 'app/pages/HomePage/node_modules/react';
 import { Redirect, Route, Link } from 'react-router-dom';
 import { renderRoutes } from 'react-router-config';
 import { convertPath } from 'utils/tool';
 import { BasicLayout } from 'layouts/BasicLayout';
 import { NotFoundPage } from 'app/components/NotFoundPage';
-import { HomePage } from 'app/containers/HomePage/Loadable';
-import { Login } from 'app/containers/Login';
-import { Demo1 } from 'app/containers/Demo1/Loadable';
-import { FullView } from 'app/containers/Demo1';
-import { MessageRecord } from 'app/containers/Demo1';
-import { Govern } from 'app/containers/Demo1';
-import { Map } from 'app/containers/Demo1';
-import { ManagementSet } from 'app/containers/Demo1';
-import { Security } from 'app/containers/Demo1';
+import { HomePage } from 'app/pages/HomePage/Loadable';
+import { Login } from 'app/pages/Login';
+import { Demo1 } from 'app/pages/Demo1/Loadable';
+import { FullView } from 'app/pages/Demo1';
+import { MessageRecord } from 'app/pages/Demo1';
+import { Govern } from 'app/pages/Demo1';
+import { Map } from 'app/pages/Demo1';
+import { ManagementSet } from 'app/pages/Demo1';
+import { Security } from 'app/pages/Demo1';
 interface Props {
   route: {
     routes: { [propName: string]: any }[];

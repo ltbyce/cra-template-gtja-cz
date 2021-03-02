@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro';
+import styled from 'app/pages/Login/node_modules/styled-components/macro';
 
 export const P = styled.p`
   font-size: 1rem;

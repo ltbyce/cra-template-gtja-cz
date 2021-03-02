@@ -3,7 +3,7 @@ import {
   createSlice as createSliceOriginal,
   SliceCaseReducers,
   CreateSliceOptions,
-} from '@reduxjs/toolkit';
+} from 'app/pages/Login/node_modules/@reduxjs/toolkit';
 
 /* Wrap createSlice with stricter Name options */
 

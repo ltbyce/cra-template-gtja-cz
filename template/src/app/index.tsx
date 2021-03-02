@@ -6,8 +6,8 @@
  * contain code that should be seen on all pages. (e.g. navigation bar)
  */
 
-import * as React from 'react';
-import { Helmet } from 'react-helmet-async';
+import * as React from 'app/pages/HomePage/node_modules/react';
+import { Helmet } from 'app/pages/HomePage/node_modules/react-helmet-async';
 import { BrowserRouter } from 'react-router-dom';
 
 import { GlobalStyle } from 'styles/global-styles';

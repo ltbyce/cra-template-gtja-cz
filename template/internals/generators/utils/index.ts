@@ -16,7 +16,7 @@ export function componentExists(component: string) {
 
 export function containerExists(container: string) {
   const containers = fs.readdirSync(
-    path.join(__dirname, '../../../src/app/containers'),
+    path.join(__dirname, '../../../src/app/pages'),
   );
   return containers.indexOf(container) >= 0;
 }

@@ -16,10 +16,10 @@ exports.HeaderAvatar = void 0;
  * anthor yechangqing create by 20200105
  *
  */
-var react_1 = require('react');
-var macro_1 = require('styled-components/macro');
-var antd_1 = require('antd');
-var icons_1 = require('@ant-design/icons');
+var react_1 = require('app/pages/HomePage/node_modules/react');
+var macro_1 = require('app/pages/Login/node_modules/styled-components/macro');
+var antd_1 = require('app/pages/Login/node_modules/antd');
+var icons_1 = require('app/pages/Login/node_modules/@ant-design/icons');
 var user_png_1 = require('assets/user.png');
 exports.HeaderAvatar = react_1.memo(function (props) {
   var onMenuClick = function (_a) {

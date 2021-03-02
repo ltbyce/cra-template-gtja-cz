@@ -4,7 +4,7 @@
   Because the redux-injectors injects your reducers asynchronously somewhere in your code
   You have to declare them here manually
 */
-import { LoginState } from 'app/containers/Login/types';
+import { LoginState } from 'app/pages/Login/types';
 export interface RootState {
   // [INSERT NEW REDUCER KEY ABOVE] < Needed for generating containers seamlessly
   login?: LoginState;
