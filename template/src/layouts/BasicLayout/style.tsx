@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Breadcrumb, Layout, Menu, Dropdown } from 'app/pages/Login/node_modules/antd';
+import { Breadcrumb, Layout, Menu, Dropdown } from 'antd';
 
 const { Header, Content, Footer } = Layout;
 

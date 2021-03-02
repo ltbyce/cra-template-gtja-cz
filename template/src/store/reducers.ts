@@ -2,7 +2,7 @@
  * Combine all reducers in this file and export the combined reducers.
  */
 
-import { combineReducers } from 'app/pages/Login/node_modules/@reduxjs/toolkit';
+import { combineReducers } from '@reduxjs/toolkit';
 
 import { InjectedReducersType } from 'utils/types/injector-typings';
 

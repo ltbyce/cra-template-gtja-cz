@@ -4,14 +4,14 @@
  * anthor yechangqing create by 20200105
  *
  */
-import React, { memo } from 'app/pages/HomePage/node_modules/react';
-import styled from 'app/pages/Login/node_modules/styled-components/macro';
-import { Avatar, Dropdown, Menu } from 'app/pages/Login/node_modules/antd';
+import React, { memo } from 'react';
+import styled from 'styled-components/macro';
+import { Avatar, Dropdown, Menu } from 'antd';
 import {
   LogoutOutlined,
   SettingOutlined,
   UserOutlined,
-} from 'app/pages/Login/node_modules/@ant-design/icons';
+} from '@ant-design/icons';
 
 import userPng from 'assets/user.png';
 import logoutSvg from 'assets/logout.svg';

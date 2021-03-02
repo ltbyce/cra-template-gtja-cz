@@ -4,8 +4,8 @@
  * author yechangqing create by 20201209
  *
  */
-import { Layout, Menu, Breadcrumb } from 'app/pages/Login/node_modules/antd';
-import React, { useState, useMemo } from 'app/pages/HomePage/node_modules/react';
+import { Layout, Menu, Breadcrumb } from 'antd';
+import React, { useState, useMemo } from 'react';
 import packUpPng from 'assets/packUp.png';
 import packDownPng from 'assets/packDown.png';
 import logoPng from 'assets/logo.png';
@@ -23,7 +23,7 @@ import {
   UnorderedListOutlined,
   DownOutlined,
   UpOutlined,
-} from 'app/pages/Login/node_modules/@ant-design/icons';
+} from '@ant-design/icons';
 import {
   LayoutContentWrapper,
   LogoWrapper,

@@ -10,7 +10,7 @@ import {
   ThemedStyledProps,
   Interpolation,
   FlattenInterpolation,
-} from 'app/pages/Login/node_modules/styled-components/macro';
+} from 'styled-components/macro';
 
 /*
  * Taken from https://github.com/DefinitelyTyped/DefinitelyTyped/issues/32914

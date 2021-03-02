@@ -1,7 +1,7 @@
-import React from 'app/pages/HomePage/node_modules/react';
-import styled from 'app/pages/Login/node_modules/styled-components/macro';
+import React from 'react';
+import styled from 'styled-components/macro';
 import { P } from './P';
-import { Helmet } from 'app/pages/HomePage/node_modules/react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 export function NotFoundPage() {
   return (

@@ -1,4 +1,4 @@
-import React from 'app/pages/HomePage/node_modules/react';
+import React from 'react';
 import { Redirect, Route, Link } from 'react-router-dom';
 import { renderRoutes } from 'react-router-config';
 import { convertPath } from 'utils/tool';

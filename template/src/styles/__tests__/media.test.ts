@@ -1,5 +1,5 @@
 import { media, sizes } from '../media';
-import { css } from 'app/pages/Login/node_modules/styled-components/macro';
+import { css } from 'styled-components/macro';
 
 describe('media', () => {
   it('should return media query in css', () => {

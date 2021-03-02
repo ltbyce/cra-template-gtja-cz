@@ -4,8 +4,8 @@
  * 自定义Antd Menu渲染
  * anthor yechangqing create by 20200105
  */
-import React, { memo } from 'app/pages/HomePage/node_modules/react';
-import { Menu } from 'app/pages/Login/node_modules/antd';
+import React, { memo } from 'react';
+import { Menu } from 'antd';
 import styled from 'styled-components';
 
 const { SubMenu } = Menu;
