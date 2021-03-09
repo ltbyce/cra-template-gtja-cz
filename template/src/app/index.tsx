@@ -27,7 +27,7 @@ export function App() {
       >
         <meta name="description" content="A React Boilerplate application" />
       </Helmet>
-      <div style={{ minWidth: '1280px' }}>{renderRoutes(routes)}</div>
+      <div>{renderRoutes(routes)}</div>
       <GlobalStyle />
     </BrowserRouter>
   );

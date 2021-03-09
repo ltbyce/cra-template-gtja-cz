@@ -75,18 +75,19 @@ export const HeaderWrapper = styled(Header)`
     border-bottom: none;
   }
   .ant-menu {
-    margin-left: auto;
+    flex: auto;
+    text-align: right;
     .ant-menu-item {
       color: rgba(255, 255, 255, 0.5);
       font-size: 18px;
     }
-    .ant-menu-item-selected {
-      color: rgba(255, 255, 255, 1);
-      border-color: rgba(255, 255, 255, 0.5);
-    }
+    .ant-menu-item-selected,
     .ant-menu-item:hover {
       color: rgba(255, 255, 255, 1);
       border-color: rgba(255, 255, 255, 0.5);
+    }
+    .ant-menu-submenu-title {
+      color: #fff;
     }
   }
 `;
